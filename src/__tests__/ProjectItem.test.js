@@ -1,6 +1,8 @@
+// filepath: /home/elder/react-hooks-lists-and-keys-lab/src/__tests__/ProjectItem.test.js
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import ProjectItem from "../components/ProjectItem";
+import React from "react";
 
 const project = {
   id: 1,
